@@ -1,2 +1,2 @@
-# React-Native-Image-1.0
+# N-Photo-1.0
 
