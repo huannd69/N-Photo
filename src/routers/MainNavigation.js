@@ -1,10 +1,10 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import AuthNavigator from 'libraries/components/AuthTemplate/Airbnb/AuthNavigator';
+import splashScreen from 'screens/splash/SplashScreen';
 import screens from 'res/screens';
-
+import homeScreen from 'screens/home/HomeScreen'
 const mainStack = createStackNavigator({
-    Auth: {screen: AuthNavigator}
-
+    splashScreen: {screen: splashScreen},
+    homeScreen:{screen:homeScreen}
 },
     {
         headerMode: 'none'
